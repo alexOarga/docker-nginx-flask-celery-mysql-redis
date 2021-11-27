@@ -1,5 +1,5 @@
 
-# :octocat: [Nginx / Gunicorn / Flask :snake: / Celery / SocketIO / MySQL / Redis / Docker :whale: sample application]() 
+# [:octocat: Nginx / Gunicorn / Flask :snake: / Celery / SocketIO / MySQL / Redis / Docker :whale: sample application](https://github.com/alexOarga/docker-nginx-flask-celery-mysql-redis) 
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]() 
 
@@ -39,7 +39,6 @@ docker-compose down
 ```
 
 Go too:
-- Swagger-UI API interface
   - http://127.0.0.1/hello/MyApplicationExample
   
 - Flower management page
