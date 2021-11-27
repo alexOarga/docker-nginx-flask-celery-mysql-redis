@@ -11,7 +11,7 @@ Deployed with [Nginx](https://nginx.org/en/) server and [Gunicorn](https://gunic
 
 Note that this application is almost production-ready. To see a production-ready application that follows this template check out [CONTRABASS-webservices](https://github.com/openCONTRABASS/CONTRABASS-webservice).
 
-This template is intended for **asynchronous tasks**, **periodically tasks** and apps that require **asynchronous communication** through WebSockets-like protocols. 
+This template is intended for **asynchronous tasks**, **periodical tasks** and apps that require **asynchronous communication** through WebSockets-like protocols. 
 Note that this makes an ideal backend for long-time execution web apps. 
 
 Notice that this application is **highly horizontally scalable** as it allows replication through multiple nginx, gunicorn, and celery workers. 
