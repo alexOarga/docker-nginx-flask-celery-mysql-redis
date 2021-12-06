@@ -14,17 +14,12 @@ Note that this application is almost production-ready. To see a production-ready
 This template is intended for **asynchronous tasks**, **periodical tasks** and apps that require **asynchronous communication** through WebSockets-like protocols. 
 Note that this makes an ideal backend for long-time execution web apps. 
 
-Notice that this application is **highly horizontally scalable** as it allows replication through multiple nginx, gunicorn, and celery workers. 
+Notice that this application is **horizontally scalable** as it allows replication through multiple nginx, gunicorn, and celery workers. 
 
 ## Requirements
 - Python :snake: >= 3.6
 - [Docker](https://docs.docker.com/engine/install/) :whale:
 - [Docker compose](https://docs.docker.com/compose/install/) :whale:
-
-## Install dependencies
-```
-pip install -r requirements.txt
-```
 
 ## Run
 First setup variables on ```.docker.env```.
