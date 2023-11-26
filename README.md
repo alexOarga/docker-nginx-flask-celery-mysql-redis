@@ -11,7 +11,7 @@ Deployed with [Nginx](https://nginx.org/en/) server and [Gunicorn](https://gunic
 
 Note that this application is almost production-ready. To see a production-ready application that follows this template check out [CONTRABASS-webservices](https://github.com/openCONTRABASS/CONTRABASS-webservice).
 
-This template is intended for **asynchronous tasks**, **periodically tasks** and apps that require **asynchronous communication** through WebSockets-like protocols. 
+This template is intended for **asynchronous tasks**, **periodicall tasks** and apps that require **asynchronous communication** through WebSockets-like protocols. 
 Note that this makes an ideal backend for long-time execution web apps. 
 
 Notice that this application is **highly horizontally scalable** as it allows replication through multiple nginx, gunicorn, and celery workers. 
@@ -26,7 +26,7 @@ Notice that this application is **highly horizontally scalable** as it allows re
 pip install -r requirements.txt
 ```
 
-## Run
+## Run :zap:
 First setup variables on ```.docker.env```.
 Assuming you have [Docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed, run on terminal:
 ```bash
@@ -38,8 +38,8 @@ In order to bring it down run:
 docker-compose down
 ```
 
-Go too:
-  - http://127.0.0.1/hello/MyApplicationExample
+Go to:
+  - http://127.0.0.1:5000/hello/MyApplicationExample
   
 - Flower management page
   - http://127.0.0.1:5555
